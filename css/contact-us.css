@@ -1,0 +1,65 @@
+.contact-us {
+    background-color: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h1 {
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-us-container {
+    width: 100%;
+}
+.contact-us-container input {
+    text-align: center;
+}
+
+.contact-us-container input, .contact-us-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-us-container textarea {
+    resize: vertical;
+}
+
+.submit-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A8FCD;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-container input:hover {
+    background-color: #0056b3;
+}
+
+.goals {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.goals h3, .goals h4 {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-container input, .contact-us-container textarea {
+        width: calc(100% - 20px); 
+    }
+}
